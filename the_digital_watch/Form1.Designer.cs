@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.labSeconds = new System.Windows.Forms.Label();
             this.labMinutes = new System.Windows.Forms.Label();
             this.labHours = new System.Windows.Forms.Label();
@@ -35,6 +36,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.butStart = new System.Windows.Forms.Button();
             this.butPause = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // labSeconds
@@ -89,27 +92,45 @@
             // 
             // butStart
             // 
-            this.butStart.Location = new System.Drawing.Point(262, 249);
+            this.butStart.Location = new System.Drawing.Point(357, 249);
             this.butStart.Name = "butStart";
             this.butStart.Size = new System.Drawing.Size(75, 23);
             this.butStart.TabIndex = 5;
             this.butStart.Text = "Start";
             this.butStart.UseVisualStyleBackColor = true;
+            this.butStart.Click += new System.EventHandler(this.butStart_Click);
             // 
             // butPause
             // 
-            this.butPause.Location = new System.Drawing.Point(439, 249);
+            this.butPause.Location = new System.Drawing.Point(492, 249);
             this.butPause.Name = "butPause";
             this.butPause.Size = new System.Drawing.Size(75, 23);
             this.butPause.TabIndex = 6;
             this.butPause.Text = "Pause";
             this.butPause.UseVisualStyleBackColor = true;
+            this.butPause.Click += new System.EventHandler(this.butPause_Click);
+            // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(222, 249);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 7;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.butPause);
             this.Controls.Add(this.butStart);
             this.Controls.Add(this.label4);
@@ -133,6 +154,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button butStart;
         private System.Windows.Forms.Button butPause;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

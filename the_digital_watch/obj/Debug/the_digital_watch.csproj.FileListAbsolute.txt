@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\bin\Debug\the_digital_watch.exe.config
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\bin\Debug\the_digital_watch.exe
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\bin\Debug\the_digital_watch.pdb
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\obj\Debug\the_digital_watch.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\obj\Debug\the_digital_watch.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\obj\Debug\the_digital_watch.Form1.resources
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\obj\Debug\the_digital_watch.Properties.Resources.resources
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\obj\Debug\the_digital_watch.csproj.GenerateResource.cache
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\obj\Debug\the_digital_watch.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\obj\Debug\the_digital_watch.exe
+C:\Users\User\Desktop\programmation\the_digital_watch\the_digital_watch\obj\Debug\the_digital_watch.pdb
